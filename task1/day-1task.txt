@@ -1,0 +1,44 @@
+1.Write a blog on Difference between HTTP1.1 vs HTTP2
+
+       HTTP1.1                                HTTP2
+  
+  It works on the textual format.          It works on the binary protocal.
+
+  It compresses data by itself.            It uses HPACK for data compression.
+
+  Some methods and response codes          Support of parellel request
+  are added.                               transmission by "stream".
+
+  Syntax and semantics are seperated.      Addition of server-push function
+                                           (send related file without request.)
+
+
+
+
+
+
+Write a blog about objects and its internal representation in Javascript
+
+   Objects,in javaScript,its most important data-type and forms the building blocks
+  for modern JavaScript.
+   Objects are more complex and each object may contain any combination of these
+  primitive data types as well as data types.
+   An object is a reference data type. Objects are more complex and each object
+  may contain any combination of these primitive data types as well as  reference
+  data types.
+
+
+
+codekata practice
+Read about IP address, port, HTTP methods, MAC address
+
+
+   
+	
+
+
+
+
+
+
+https://github.com/reach2arunprakash/javascript-101/tree/master/ppt
