@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Country flags</title>
+        
+
+    </head>
+    <body>
+        <script>
+            var xhr = new XMLHttpRequest();
+            var method = 'GET';
+            var url = 'https://restcountries.com/v3.1/all';
+            xhr.open(method,url,true);
+            xhr.setRequestHeader('Content-Type','application/json');
+            xhr.onload = function(){
+                if(xhr.status === 200){
+                    var result = JSON.parse(xhr.resultText);
+                    for(var i= 0;i<result.length;i++)
+                    {
+                        console.log(result[i].flag);
+                    }
+                }
+                else{
+                    console.log('result failed',xhr,status);
+                }
+            }
+            xhr.send();
+
+        </script>
+    </body>
+
+
+
+
+</html>
