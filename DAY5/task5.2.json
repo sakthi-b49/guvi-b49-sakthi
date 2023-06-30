@@ -1,0 +1,20 @@
+{
+    "name": "Sakthiganesh",
+    "email": "sakthiganesh1110@gmail.com",
+    "phone": "9487542984",
+    "address": "188/108 OOrani st, Aks theatre road, kovilpatti, Thoothukudi district, Tamilnadu ",
+    "education": [
+        {
+            "institution": "Unnamalai Institute Of Technology",
+            "degree": "Bachelor Of Engineering in Mechanical",
+            "year": 2020
+        }
+    ],
+    "experience":"Fresher",
+    "skills ": [
+        "c",
+        "c++",
+        "java"
+    ]
+
+}
