@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        <div class="calculator">
+          <input type="text" id="display" class="form-control mb-2" readonly>
+          <button class="btn btn-primary btn-block" onclick="clearDisplay()">C</button>
+          <button class="btn btn-secondary" onclick="handleKeyPress('/')">/</button>
+          <button class="btn btn-secondary" onclick="handleKeyPress('*')">*</button>
+          <button class="btn btn-secondary" onclick="handleKeyPress('-')">-</button>
+          <button class="btn btn-secondary" onclick="handleKeyPress('+')">+</button>
+          <button class="btn btn-primary btn-block" onclick="calculate()">=</button>
+          <button class="btn btn-dark" onclick="handleKeyPress('7')">7</button>
+          <button class="btn btn-dark" onclick="handleKeyPress('8')">8</button>
+          <button class="btn btn-dark" onclick="handleKeyPress('9')">9</button>
+          <button class="btn btn-dark" onclick="handleKeyPress('4')">4</button>
+          <button class="btn btn-dark" onclick="handleKeyPress('5')">5</button>
+          <button class="btn btn-dark" onclick="handleKeyPress('6')">6</button>
+          <button class="btn btn-dark" onclick="handleKeyPress('1')">1</button>
+          <button class="btn btn-dark" onclick="handleKeyPress('2')">2</button>
+          <button class="btn btn-dark" onclick="handleKeyPress('3')">3</button>
+          <button class="btn btn-dark" onclick="handleKeyPress('0')">0</button>
+          <button class="btn btn-dark" onclick="handleKeyPress('.')">.</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
